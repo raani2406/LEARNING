@@ -46,7 +46,7 @@ namespace FirstEvenNumber
             }
 
             Console.WriteLine("\n List of Odd numbers: ");
-            ////count of even numbers
+            ////count of odd numbers
             for (i = 0; i < arr.Length; i++)
             {
                 if (arr[i] % 2 != 0)
