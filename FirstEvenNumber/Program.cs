@@ -11,7 +11,7 @@ namespace FirstEvenNumber
     {
         static void Main(string[] args)
         {
-            int[] arrayElements = { 2, 3, 5, 8, 16, 23, 26, 88 };
+            int[] arrayElements = { 22, 2, 9, 3, 5, 8, 16, 23, 26, 88 };
             EvenNumbers(arrayElements);
             Console.ReadKey();
 
@@ -30,6 +30,7 @@ namespace FirstEvenNumber
             //List of array
             for (i = 0; i < arr.Length; i++)
             {
+                Array.Sort(arr);
                 Console.Write(arr[i] + " ,");
             }
 
